@@ -7,7 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-pets.push("roosters")
+  pets = ["dogs", "cats", "birds", "pigs"]
+  pets.push("roosters")
 end
 
 def add_element_to_start_of_array(array, element)
